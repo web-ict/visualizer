@@ -79,6 +79,7 @@ import('@web-ict/curl').then(({ Curl729_27 }) => {
         PIN_OLD_NODES: false,
         STATIC_FRONT: false,
         DARK_MODE: true,
+        REMOVE_FLOATING_NODES: false,
     })
 
     ict.ixi.addListener(transaction => {
